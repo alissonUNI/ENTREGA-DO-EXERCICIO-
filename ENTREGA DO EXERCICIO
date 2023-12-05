@@ -6,10 +6,10 @@ public class Program
 {
     public static void Main()
     {
-        ICanal whatsappLuciano = new WhatsApp("11950268370");
-        ICanal instaLuciano = new Instagram("lucianofelicianojr");
-        ICanal facebookLuciano = new Facebook("lucianofeliciano.junior");
-        ICanal telegramLuciano = new Telegram("39742358");
+        ICanal whatsappalisson = new WhatsApp("11950268370");
+        ICanal instaalisson = new Instagram("alissonfelicianojr");
+        ICanal facebookalisson = new Facebook("alissonfeliciano.junior");
+        ICanal telegramalisson = new Telegram("39742358");
 
         MensagemBasica mensagemTexto = new MensagemBasica();
         mensagemTexto.DataEnvio = DateTime.Now;
@@ -35,31 +35,31 @@ public class Program
         mensagemArquivo.Formato = TiposDeArquivo.PDF;
 
         // Enviando mensagem de texto
-        whatsappLuciano.EnviarMensagem(mensagemTexto);
-        instaLuciano.EnviarMensagem(mensagemTexto);
-        facebookLuciano.EnviarMensagem(mensagemTexto);
-        telegramLuciano.EnviarMensagem(mensagemTexto);
+        whatsappalisson.EnviarMensagem(mensagemTexto);
+        instaalisson.EnviarMensagem(mensagemTexto);
+        facebookalisson.EnviarMensagem(mensagemTexto);
+        telegramalisson.EnviarMensagem(mensagemTexto);
 
         // Enviando mensagem de vídeo
-        whatsappLuciano.EnviarMensagem(mensagemVideo);
-        instaLuciano.EnviarMensagem(mensagemVideo);
-        facebookLuciano.EnviarMensagem(mensagemVideo);
-        telegramLuciano.EnviarMensagem(mensagemVideo);
+        whatsappalisson.EnviarMensagem(mensagemVideo);
+        instaalisson.EnviarMensagem(mensagemVideo);
+        facebookalisson.EnviarMensagem(mensagemVideo);
+        telegramalisson.EnviarMensagem(mensagemVideo);
 
         // Enviando mensagem de foto
-        whatsappLuciano.EnviarMensagem(mensagemFoto);
-        instaLuciano.EnviarMensagem(mensagemFoto);
-        facebookLuciano.EnviarMensagem(mensagemFoto);
-        telegramLuciano.EnviarMensagem(mensagemFoto);
+        whatsappalisson.EnviarMensagem(mensagemFoto);
+        instaalisson.EnviarMensagem(mensagemFoto);
+        facebookalisson.EnviarMensagem(mensagemFoto);
+        telegramalisson.EnviarMensagem(mensagemFoto);
 
         // Enviando mensagem de arquivo
-        whatsappLuciano.EnviarMensagem(mensagemArquivo);
-        instaLuciano.EnviarMensagem(mensagemArquivo);
-        facebookLuciano.EnviarMensagem(mensagemArquivo);
-        telegramLuciano.EnviarMensagem(mensagemArquivo);
+        whatsappalisson.EnviarMensagem(mensagemArquivo);
+        instaalisson.EnviarMensagem(mensagemArquivo);
+        facebookalisson.EnviarMensagem(mensagemArquivo);
+        telegramalisson.EnviarMensagem(mensagemArquivo);
 
 
-        ICanal Facebook = new Facebook("luciano.felicianojunior");
+        ICanal Facebook = new Facebook("alisson.felicianojunior");
 
 
     }
